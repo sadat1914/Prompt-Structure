@@ -1,9 +1,9 @@
 ---
-name: prompt-evaluation
-version: 1.01
+name: prompt-testing-evaluate-enhance
+version: 1.02
 last_updated: 2026-04-24
 status: production
-changelog: small edit to triggers in description
+changelog: updated name in yaml properties
 ---
 
 # Prompt Evaluation
