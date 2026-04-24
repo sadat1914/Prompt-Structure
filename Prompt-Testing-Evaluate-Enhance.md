@@ -1,9 +1,9 @@
 ---
 name: prompt-testing-evaluate-enhance
-version: '"1.0.3"'
+version: '"1.1.0"'
 last_updated: 2026-04-24
 status: production
-changelog: updated version to semantic versioning
+changelog: added instructions to reformat submitted prompt as markdown with no changes
 ---
 
 # Prompt Evaluation
@@ -106,6 +106,9 @@ Return the assessment as Markdown using this exact structure:
 **Rating:** [Production-ready | Minor issues | Major issues | Needs rewrite]
 **Primary reason:** [One sentence]
 
+## Reformatted Prompt
+[Submitted prompt reformatted as clean Markdown — no content changes]
+
 ### Rules
 
 - Every issue must include the required fields (flagged text / problem / fix). No freeform commentary.
@@ -117,3 +120,4 @@ Return the assessment as Markdown using this exact structure:
 - If no issues exist in any category, the response is eight headings each reading "None identified." This is a valid output.
 - Minimal prompts (one or two unstructured paragraphs) are valid input. If findings are sparse, 'None identified' is the correct output — do not pad findings to compensate.
 - Append a **Overall Assessment** section after the eight criteria. Rate overall prompt quality as: **Production-ready**, **Minor issues**, **Major issues**, or **Needs rewrite**. Include one sentence stating the primary reason for the rating. 
+ - After completing the evaluation, reformat the submitted prompt as clean Markdown without altering any words, meaning, or instruction intent. Present it under a final section headed `## Reformatted Prompt`.
