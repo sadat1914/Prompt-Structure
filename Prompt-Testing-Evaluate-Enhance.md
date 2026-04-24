@@ -1,9 +1,9 @@
 ---
 name: prompt-testing-evaluate-enhance
-version: 1.02
+version: '"1.0.3"'
 last_updated: 2026-04-24
 status: production
-changelog: updated name in yaml properties
+changelog: updated version to semantic versioning
 ---
 
 # Prompt Evaluation
