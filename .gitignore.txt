@@ -1,4 +1,0 @@
-.obsidian/
-Untitled.md
-Untitled.base
-desktop.ini
